@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Listák</title>
+ </head>
+ <h2>Listák készítése</h2>
+ <!--Listaelemek jelölésének típusai (list-style-type):disc|circle|square|decimal|lower roman|upper-roman|lower-alpha|upper-alpha|none-->
+ <body>
+  <ul>
+  <!-- Rendezetlen lista -->
+  <!-- <li> </li> - list item -->
+	<li>piros</li>
+	<li>kék</li>
+	<li>sárga</li>
+	<li>barna</li>
+  </ul>
+
+  <ul style="font-size:12pt; font-family:cambria; list-style-type:circle; color:blue">
+	<li>piros</li>
+	<li>kék</li>
+	<li>sárga</li>
+	<li>barna</li>
+  </ul><br>
+  <!-- Rendezett lista -->
+  <ol type="1">
+	<li>piros</li>
+	<li>kék</li>
+	<li>sárga</li>
+	<li>barna</li>
+  </ol><br>
+  <!-- Római számok -->
+  <ol type="I">
+	<li>I. ÉVF</li>
+	<li>II. ÉVF</li>
+	<li>III. ÉVF</li>
+  </ol><br>
+  <ol style="font-size:14pt; font-family:tahoma; list-style-type:upper-alpha; color:red">
+	<li>sárga
+	<li>pink
+	<li>bíbor
+	<li>türkiz
+  </ol><br>
+  <!--HTML Description Lists, itt a kedvenc állatok legyenek és hozzá a tulajdonságok-->
+  <dl style="font-size:14pt; font-family:tahoma; color:#339999">
+	<dt><b>Farkas</b>
+	<dd>Kutyaszerű ragadozó emlős
+	<br>
+	<dt><b>File</b>
+	<dd>Szöveges állomány<br>
+	<dt><b>Oroszlán</b>
+	<dd>Macskaszerű emlős
+	<dd>Az állatok királya
+  </dl>
+  <!--Beágyazott HTML listák: Kedvenc reggeli italaim-->
+  <font color="#ff0099"><h2>Kedvenc reggeli italaim</h2></font>
+  <ul>
+  <li>Káve</li>
+  <li>Tea
+  <ul>
+  <li>Fekete tea</li>
+  <li>Zöld tea</li>
+  </ul>
+  </li>
+  <li>Tej</li>
+  </ul>
+  <!--Control List Counting-itt a csoporttársak legyenek-névsorban DESC a végétől-->
+  <ol start="5">
+  <li>KL</li>
+  <li>EL</li>
+  <li>BL</li>
+  </ol>
+
+ </body>
+</html>
