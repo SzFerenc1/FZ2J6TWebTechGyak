@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hu">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Beadandó weblap</title>
+  <style>
+ article, section, aside, nav, header, footer {display:block;}
+ .fejlec {
+				font-size: 18pt;
+				font-family: Helvetica;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				font-weight: bold;
+			}
+			.urlap{
+				padding: 30px;
+				font-size: 12pt;
+				font-family: Helvetica;
+				background: #dfe3ea;
+				width: 500px;
+				height: 300px;
+				border-radius: 10px;
+				box-shadow: 5px 5px 10px #888888;
+			}
+			.lablec{
+				width: 560px;
+				font-size: 10px;
+				margin-top: 40px
+				border-top: 3px #888888 double;
+				padding-top: 30px;
+				text-align: right;
+				font-family: Helvetica;
+ }</style>
+ 
+ <script>
+ document.createElement('article');
+ document.createElement('section');
+ document.createElement('aside');
+ document.createElement('nav');
+ document.createElement('header');
+ document.createElement('footer');
+ </script>
+ <!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif>-->
+ </head>
+ <body>
+ <header id="fejlec" class="fejlec">
+  <h2 font color="white">Üdvözlöm a HTML weblapomon<h2>
+  </header>
+  <table align:"center" style="table-layout:fixed; font-family:tahoma; font-size:14pt; background:url('kepek/fohatter.jpg'); color:White" border="0">
+  <tr style="height:470px">
+  <td colspan="3" style="width:1710px; text-align:center">
+  <a href="fooldal.html" target="keret"><img src="kepek/felkep.jpg" height="200" border="1" alt=" "></a>
+  </td>
+  </tr>
+  <tr style="height:30px; font-weight:bold">
+  <td style="text-align:center">
+  <a href="autoelektro.html" target="keret"><font style="color:white; tet-decioration:none">Bevezetés az <br>autóelektronikába</font></a>
+  </td>
+  <td style="text-align:center">
+  <a href="fizika.html" target="keret"><font style="color:white; tet-decioration:none">Fizika</font></a>
+  </td>
+  <td style="text-align:center">
+  <a href="webtech.html" target="keret"><font style="color:white; tet-decioration:none">Webes technológiák</font></a>
+  </td>
+  </tr>
+  <tr style="height:350px">
+  <td colspan="3" style="text-align:center">
+  <form id="kerdoiv" name="kerdoiv" action="kerdoiv.php" method="GET" target="_self">
+  <strong>Neme:</strong> <input type="text" name="nem" list="neme">
+  <datalist id="neme">
+  <option value="Férfi"></option>
+  <option value="Nő"></option>
+  <option value="Egyéb"></option>
+  </datalist>
+  <br><br>
+  <strong>Tanult-e már HTML-t?:</strong> <input type="text" name="tanul" list="tanulas">
+  <datalist id="tanulas">
+  <option value="Tanultam"></option>
+  <option value="Most tanulom"></option>
+  <option value="Soha nem tanultam"></option>
+  </datalist>
+  <br><br>
+  <strong>Életkor:</strong><input type="number" name="eletkor" min="5" max="100" style="width:40px">
+  <br><br>
+  <strong>Mennyi időt töltött a weblapomon?: </strong><input type="number" name="labmeret" min="0" max="60" step="0.5" style="width:60px"> perc
+  <br><br>
+  <strong>Mennyire tetszett?:</strong>&nbsp;&nbsp;&nbsp;Nem tetszett <input type="range" name="onbizalom" min="0" max="100" style="width:200px"> Nagyon tetszett
+  <br>
+  </form>
+  <br><br>
+  <input type="submit" value="Visszajelzek" form="kerdoiv" formaction="kerdoiv.php" formmethod="POST" />
+  &nbsp&nbsp&nbsp
+  <input type="submit" value="Mindenképp visszajelzek" form="kerdoiv" formnovalidate formtarget="ujablak" />
+  </section></td></tr>
+  <tr style="height:40px">
+  <td colspan="3" style="width 640px; text-align:center"></td>
+  </tr>
+  </table>
+  <footer id="lablec" class="lablec">
+  </footer>
+  &copy;Minden jog fenntartva!
+ </body>
+</html>
